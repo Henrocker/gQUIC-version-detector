@@ -2,7 +2,7 @@
 Detects the versions of gQUIC, a web server is utilizing.
 
 # Prerequisites:
-You will need pip3 and quic-version-detector installed on your system. Tested on Debian x86_64 sid.
+You will need `pip3`, `quic-version-detector` and `php5.6+` installed on your system. Tested on Debian x86_64 sid.
 
 # Installation
 Installing dependencies:
