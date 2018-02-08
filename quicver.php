@@ -21,5 +21,4 @@
      echo $output;
      echo "</br>";
      echo "<a href=\"index.html\">Back</a>";
-
 ?>
