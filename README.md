@@ -1,4 +1,4 @@
-# gQUIC-version-detector
+# quic-version-detector-webfrontend
 Web-frontend to quic-version-detector, that detects the versions of gQUIC a web server is utilizing.
 
 # Prerequisites:
@@ -22,12 +22,12 @@ sudo pip3 install quic-version-detector
 Now copy all the files to your www-folder and give quicver.php 755 permission.
 
 ```sh
-git clone https://github.com/Henrocker/gQUIC-version-detector.git
+git clone https://github.com/Henrocker/quic-version-detector-webfrontend.git
 cd gQUIC-version-detector
 sudo chmod 755 quicver.php
 ```
 
-You are now ready to test. Visit _yoursite.com/gQUIC-version-detector_.
+You are now ready to test. Visit _yoursite.com/quic-version-detector-webfrontend_.
 Have fun!
 
 ## Quicklinks:
