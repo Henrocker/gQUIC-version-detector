@@ -16,8 +16,6 @@
      if($port > 65535 || $port < 0 && !$port == "") {
         die("You've specified an invalid port number.</br><a href=\"index.html\">Back</a>");
      }
-     passthru("quicver $host $port | aha --title Results: > quicver.html");
-     $htmlpage = file_get_contents('http://localhost/quicver.html');
-     echo str_replace("</pre>", "</pre><a href=\"index.html\">Back</a>", $htmlpage);
-     echo "<script>window.location = 'quicver.html'</script>";
+     passthru("quicver $host $port | aha --title Results: ");
+     echo ("<a href=\"index.html\">Back</a>");
 ?>
