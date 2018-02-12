@@ -17,7 +17,7 @@
         die("You've specified an invalid port number.</br><a href=\"index.html\">Back</a>");
      }
      passthru("quicver $host $port | aha --title Results: > quicver.html");
-     $htmlpage = file_get_contents('https://henrock.net/quicver/quicver.html');
+     $htmlpage = file_get_contents('http://localhost/quicver.html');
      echo str_replace("</pre>", "</pre><a href=\"index.html\">Back</a>", $htmlpage);
      echo "<script>window.location = 'quicver.html'</script>";
 ?>
