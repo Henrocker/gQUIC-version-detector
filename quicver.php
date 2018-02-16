@@ -1,5 +1,5 @@
 <?php
-     //If POST vars are not set, die.
+     //If POST var host is not set or empty, die.
      if(!isset($_POST['host']) || $_POST['host']=="") {
 	die("You did not specify any host.</br><a href=\"index.html\">Back</a>");
      }
