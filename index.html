@@ -10,8 +10,8 @@
   <div class="form">
   <h1>gQUIC Version Check</h1><br>
     <form class="login-form" action="quicver.php" method="POST">
-      <input name="host" type="text" placeholder="Host (e.g. google.de)"/>
-      <input name="port" type="number" placeholder="Port (default: 443)"/>
+      <input name="host" type="text" maxlength="100" placeholder="Host (e.g. google.de)"/>
+      <input name="port" type="number" min="1" max="65535" placeholder="Port (default: 443)"/>
       <button type="submit" value="Check" name="Check">Check</button>
     </form>
   </div>
