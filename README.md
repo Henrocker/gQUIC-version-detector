@@ -23,7 +23,7 @@ Now copy all the files to your www-folder and give quicver.php 755 permission.
 
 ```sh
 git clone https://github.com/Henrocker/quic-version-detector-webfrontend.git
-cd gQUIC-version-detector
+cd quic-version-detector-webfrontend
 sudo chmod 755 quicver.php
 ```
 
