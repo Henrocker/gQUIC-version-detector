@@ -18,7 +18,7 @@
      if(!checkdnsrr(idn_to_ascii($host), 'A')) {
 	die("Host: \"$host\" is not resolvable. Maybe you've misspelled it?</br><a href=\"index.html\">Back</a>");
      }
-     //If the port number ecxeeds or falls below valid ones, die.
+     //If the port number exceeds or falls below valid ones, die.
      if($port > 65535 || $port < 1 && !$port == "") {
         die("You've specified an invalid port number.</br><a href=\"index.html\">Back</a>");
      }
